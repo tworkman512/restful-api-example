@@ -1,0 +1,30 @@
+{
+  "name": "restful-api-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tworkman512/restful-api-example.git"
+  },
+  "keywords": [],
+  "author": "Tom Workman",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tworkman512/restful-api-example/issues"
+  },
+  "homepage": "https://github.com/tworkman512/restful-api-example#readme",
+  "devDependencies": {
+    "nodemon": "^1.19.1",
+    "morgan": "^1.9.1"
+  },
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.6.4"
+  }
+}
